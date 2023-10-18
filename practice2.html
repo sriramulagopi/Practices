@@ -1,11 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <style>
+      div {
+        background-color: red;
+      }
+      /* span {
+        background-color: blue;
+      } */
+      #g1{
+        background-color: blue;
+        color: white;
+      }
+      .red{
+        background-color: red;
+        width: 200px;
+        height: 200px;
+        border: 5px dashed black;
+      }
+      .green{
+        background-color: green;
+        width: 200px;
+        height: 200px;
+        border: 5px dashed black;
+      }
+      .blue{
+        background-color: blue;
+        border: 5px dashed black;
+        width: 200px;
+        height: 200px;
+      }
+      .yellow{
+        background-color: yellow;
+        border: 5px dashed black;
+        width: 200px;
+        height: 200px;
+      }
+      .grey{
+        background-color: grey;
+        border: 5px dashed black;
+        width: 200px;
+        height: 200px;
+      }
+      .orange{
+        background-color: orange;
+        border: 5px dashed black;
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav><a href="#footer">footer :: </a><a href="#g1">Details ::</a>
+    <a href="#image">Image</a></nav>
+    <div><h1>div tag 1</h1></div>
+    <div><h1>div tag 2</h1></div>
+    <span>span tag 1</span>
+    <span>span tag 2</span>
+    <div>div tag 3</div>
+    <hr />
+    <!-- 
+         Types of lists
+         1.Ordered List
+           tyes
+           1.I
+           2.i
+           3.1 (This is default)
+           4.A
+           5.a
+         2.Unordered List
+          1.none
+          2.disc
+          3.circle
+          4.square
+
+     -->
     
-</body>
+    <div id="g1">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+      </ul>
+      <h2>Projects</h2>
+      <ol>
+        <li>Blinkit-clone</li>
+        <li>Spotify-clone</li>
+        <li>Protfolio</li>
+      </ol>
+      <h2>Projects-B</h2>
+      <dl>
+        <dt>Spotify-clone</dt>
+        <dd>It is done by using html css and JS</dd>
+        <dt>Blinkit-clone</dt>
+        <dd>It is done by using html css and js</dd>
+        <dt>Protfolio</dt>
+        <dd>It is done by using html basics</dd>
+      </dl>
+      <ol>
+        <li>veeraswami</li>
+        <li>chandrakala</li>
+        <ol>
+            <li>gopi</li>
+            <li>kishore</li>
+        </ol>
+      </ol>
+    </div>
+    <hr>
+    <img id="image" src="https://images.unsplash.com/photo-1696457703465-e2eb625a5ecf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="Image of the hill" width="400px" height="400px" >
+    <img src="ttps://images.unsplash.com/photo-1696457703465-e2eb625a5ecf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="Image of the hill">
+    <a href="https://www.unsplash.com"><img src="https://images.unsplash.com/photo-1696457703465-e2eb625a5ecf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="image error" width="400px" height="400px"></a>
+    <a target="_blank" href="./index.html">Redirect to index.html</a>
+    <hr>
+<!-- class and id -->
+    <div class="gopi red"></div><br>
+    <div class="gopi blue"></div><br>
+    <div class="gopi orange"></div><br>
+    <div class="gopi grey"></div><br>
+    <div class="gopi yellow"></div><br>
+    <div class="gopi green"></div><br>
+    <hr>
+    <footer id="footer">
+        <h2>Profile</h2>
+        <ol>
+            <li>Name       :Gopi</li>
+            <li>Phone No   :9848332822</li>
+            <li>Email      :<a href="mailto:sriramulaveeraswami@gmail.com">click here</a></li>
+            <li>gender     :Male</li>
+            <li>Linkdin    :<a target="_blank" href="https://www.linkedin.com/in/sriramula-gopi-8712a7260/">click here</a></li>
+        </ol>
+    </footer>
+    <hr>
+    <h1  style="font-family: Arial, Helvetica, sans-serif;font-size: 55px; padding: 60px;">Ignite Your <span style="color: #3081ED;">Tech Career</span> <br> Today: Learn, Grow, and Get <br> Placed</h1>
+    <br>
+    <br>
+    <br>
+  </body>
 </html>
